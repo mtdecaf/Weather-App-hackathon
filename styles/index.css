@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Moon";
+  src: url("../../assets/fonts/Moon2.0-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Moon";
+  src: url("../../assets/fonts/Moon2.0-Light.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Moon";
+  src: url("../../assets/fonts/Moon2.0-Bold.ttf");
+  font-weight: 700;
+}
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Moon";
+  font-weight: normal;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: auto;
+  justify-content: center;
+  background-color: #FFB085;
+}
+
+img {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.main .__request-card {
+  display: flex;
+}
+.main .__form {
+  display: flex;
+  font-size: 2rem;
+}/*# sourceMappingURL=index.css.map */

@@ -8,21 +8,42 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+
     <nav class="nav">
         <a class="nav__logo" href="./index.html"><img src="./assets/naruto.png" alt="Weather-Site-logo"></a>
     </nav>
+
     <section class="main">
-        <div class="request-card">
-            <form action="">
-                <label>City<input type="text" placeholder="Enter City"></label>
-                <label>Cuisine<input type="text" placeholder="Type of Food"></label>
+
+        <div class="main__request-card">
+
+            <form class="main__form" action="">
+
+                <label for="cities">City</label>
+                <select class="options" id="cities" name="cities">
+                    <option value="Vancouver">Vancouver</option>
+                    <option value="Toronto">Toronto</option>
+                    <option value="Calgary">Calgary</option>
+                </select>
+
+                <label for="foods">Cuisine</label>
+                <select class="main__options" name="foods" id="foods">
+                    <option value="Meal">Full Meals</option>
+                    <option value="drinks">Drinks</option>
+                    <option value="desserts">Desserts</option>
+                </select>
                 
                 <button><img src="./assets/submit.png" alt="Submit-Icon"></button>
+
             </form>
         </div>
+
     </section>
+
     <footer>
         
     </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>

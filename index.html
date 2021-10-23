@@ -20,20 +20,22 @@
             <form class="main__form" action="">
 
                 <label for="cities">City</label>
-                <select class="options" id="cities" name="cities">
-                    <option value="Vancouver">Vancouver</option>
+                <select class="options" id="cities" name="cities" >
+                    <option value="" disabled selected>Select your option</option>
+                    <option Value="Vancouver">Vancouver</option>
                     <option value="Toronto">Toronto</option>
                     <option value="Calgary">Calgary</option>
                 </select>
 
-                <label for="foods">Cuisine</label>
-                <select class="main__options" name="foods" id="foods">
-                    <option value="Meal">Full Meals</option>
-                    <option value="drinks">Drinks</option>
-                    <option value="desserts">Desserts</option>
+                <label for="foods">Type of Food</label>
+                <select class="options" name="foods" id="foods">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="meal">Full Meals</option>
+                    <option value="drink">Drinks</option>
+                    <option value="dessert">Desserts</option>
                 </select>
                 
-                <button><img src="./assets/submit.png" alt="Submit-Icon"></button>
+                <button type="submit" value="Submit"><img src="./assets/submit.png" alt="Submit-Icon"></button>
 
             </form>
         </div>
@@ -45,5 +47,6 @@
     </footer>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
